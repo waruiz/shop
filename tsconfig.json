@@ -1,12 +1,13 @@
 {
-    "compilerOptions": {
-      "module": "CommonJS",
-      "noImplicitAny": true,
-      "removeComments": true,
-      "rootDir": "./src",
-      "outDir": "./out",
-      "sourceMap": true
-    },
-    "include": ["src/**/*"],
-    "exclude": ["**/*.spec.ts"]
-  }
+  "compilerOptions": {
+    "module": "CommonJS",
+    "noImplicitAny": true,
+    "removeComments": true,
+    "rootDir": "./src",
+    "outDir": "./out",
+    "sourceMap": true,
+    "esModuleInterop": true
+  },
+  "include": ["src/**/*"],
+  "exclude": ["**/*.spec.ts"]
+}
