@@ -1,4 +1,4 @@
-import server from "./server";
+import server from "../server";
 
 export function products() {
   server.get("/products/:productId", (req, res) => {

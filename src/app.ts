@@ -1,6 +1,6 @@
 import server from "./server";
-import { health } from "./health.controller";
-import { products } from "./products.controller";
+import { health } from "./routes/health.route";
+import { products } from "./routes/products.route";
 
 health();
 products();
