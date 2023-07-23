@@ -2,10 +2,10 @@
   "name": "shop",
   "version": "0.1.0",
   "description": "",
-  "main": "src/index.js",
+  "main": "out/app.js",
   "scripts": {
     "construct": "tsc",
-    "initiate": "node ./out/index",
+    "initiate": "node ./out/app",
     "start": "npm run construct && npm run initiate"
   },
   "keywords": [],
